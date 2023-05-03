@@ -1,0 +1,9 @@
+@import url("__link-hover/footer__link-hover.css");
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  margin-left: 1vw;
+  font-size: 16px;
+  font-weight: 400;
+}

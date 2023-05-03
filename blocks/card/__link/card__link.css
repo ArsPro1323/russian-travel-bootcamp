@@ -1,0 +1,7 @@
+.card__link,.card__link:hover, .card__link:active {
+  text-decoration: none;
+  color: white;
+  text-decoration-line:underline;
+  font-size: 18px;
+  font-weight: 400;
+}

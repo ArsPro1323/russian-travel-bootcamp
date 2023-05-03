@@ -1,8 +1,10 @@
 @import url("__title/question__title.css");
 @import url("__info/question__info.css");
 @import url("__answers/question__answers.css");
+@import url("__options/question__options.css");
 
 .question {
   margin-top: 8vw;
-  margin-left: 10vw;
+  margin-left: 4vw;
+  max-width: 1600px;
 }

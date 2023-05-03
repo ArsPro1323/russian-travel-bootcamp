@@ -1,11 +1,11 @@
-@import url("__image/card__image.css");
+@import url("__image/gallery__image.css");
 
 .gallery {
+  margin: 7vh auto 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 16px;
   width: 90%;
-  padding-left: 4vw;
-  margin-top: 7vh;
+  max-width: 1300px;
 }

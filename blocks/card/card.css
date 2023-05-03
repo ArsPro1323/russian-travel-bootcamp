@@ -1,11 +1,16 @@
 @import url("__title/card__title.css");
+@import url("__text/card__text.css");
+@import url("__link/card__link.css");
+@import url("__link-container/card___link-container.css");
+@import url("__link-name/card__link-name.css");
 
 .card {
+  margin: 0 auto 6vw;
   display: grid;
-  width: 80vw;
-  height: 70vh;
-  margin-top: 10vh;
-  margin-left: 10%;
+  width: 76vw;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto 460px;
+  color: white;
+  gap: 20px;
+  max-width: 1300px;
 }

@@ -1,0 +1,9 @@
+@import url("/blocks/footer/__links/footer__links.css");
+@import url("/blocks/footer/__link/footer__link.css");
+@import url("/blocks/footer/__copyright/footer__copyright.css");
+
+.footer {
+  margin-top: 7vh;
+  min-height: 75px;
+  display: flex;
+}
