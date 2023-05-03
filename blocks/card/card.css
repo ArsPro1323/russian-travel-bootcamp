@@ -1,0 +1,11 @@
+@import url("__title/card__title.css");
+
+.card {
+  display: grid;
+  width: 80vw;
+  height: 70vh;
+  margin-top: 10vh;
+  margin-left: 10%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
