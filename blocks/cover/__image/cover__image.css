@@ -1,3 +1,15 @@
 .cover__image {
-  width: 77vw;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__image {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__image {
+    width: 100vw;
+  }
 }

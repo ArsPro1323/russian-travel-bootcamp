@@ -10,3 +10,10 @@
   width: 92vw;
   height: calc(92vw * 740/1184);
 }
+
+@media screen and (max-width: 1024px) {
+  .finishing-cover {
+    width: 100vw;
+    height: calc(100vw * 740/1184);
+  }
+}

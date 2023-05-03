@@ -3,3 +3,11 @@
   font-weight: 400;
   text-align: center;
 }
+
+@media screen and (max-width: 320px) {
+  .finishing-cover__subheading {
+    font-size: 14px;
+    line-height: 16px;
+    width: 90vw;
+  }
+}

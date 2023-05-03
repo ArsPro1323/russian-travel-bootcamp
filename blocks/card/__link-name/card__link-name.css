@@ -4,3 +4,9 @@
   font-weight: 400;
   margin-bottom: 1vh;
 }
+
+@media screen and (max-width: 768px) {
+  .card__link-name {
+    width: 44vw;
+  }
+}

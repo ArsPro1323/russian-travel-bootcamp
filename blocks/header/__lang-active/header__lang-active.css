@@ -1,3 +1,11 @@
 .header__lang-active {
   text-decoration-line: underline;
+  padding: 0 1em;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-active {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }

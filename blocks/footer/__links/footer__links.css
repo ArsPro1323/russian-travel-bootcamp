@@ -1,3 +1,17 @@
 .footer__links {
   margin: auto 0 auto 48px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin-bottom: 32px;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    flex-direction: column;
+  }
 }

@@ -7,3 +7,9 @@
   min-height: 75px;
   display: flex;
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+  }
+}

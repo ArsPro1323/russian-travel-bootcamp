@@ -3,14 +3,37 @@
 @import url("__link/card__link.css");
 @import url("__link-container/card___link-container.css");
 @import url("__link-name/card__link-name.css");
+@import url("__image/card__image.css");
 
 .card {
   margin: 0 auto 6vw;
   display: grid;
   width: 76vw;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 460px;
+  grid-template-rows: auto 1fr;
   color: white;
   gap: 20px;
   max-width: 1300px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 90vw;
+    gap: 28px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
 }

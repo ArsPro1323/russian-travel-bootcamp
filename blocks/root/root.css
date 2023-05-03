@@ -1,7 +1,10 @@
 @import url('/fonts/fonts.css');
 
 .root {
+  overflow-x: hidden;
+  margin: 0;
   background-color: #2A2C2F;
   color: white;
   font-family: 'Inter', sans-serif;
+  line-height: 163%;
 }
