@@ -5,3 +5,10 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 470px) {
+  .card__link,.card__link:hover, .card__link:active {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
