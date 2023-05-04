@@ -1,4 +1,4 @@
 .footer__link:hover .cover__finishing-active {
-  filter: alpha (Opacity=50);
+  filter: alpha (opacity=50);
   opacity: 0.5;
 }
