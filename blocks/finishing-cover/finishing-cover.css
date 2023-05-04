@@ -1,8 +1,3 @@
-@import url("__image/finishing-cover__image.css");
-@import url("__link/finishing-cover__link.css");
-@import url("__heading/finishing-cover__heading.css");
-@import url("__subheading/finishing-cover__subheading.css");
-
 .finishing-cover {
   background-image: url("../../images/finishing-cover.jpg");
   background-size: cover;
