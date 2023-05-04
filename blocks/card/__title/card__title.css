@@ -8,6 +8,7 @@
   padding-bottom: 3vh;
   font-weight: 900;
   line-height: 76px;
+  width: 70%;
 }
 
 @media screen and (max-width: 768px) {

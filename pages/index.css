@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url(../fonts/fonts.css);
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
@@ -24,6 +25,7 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/__link-hover/footer__link-hover.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 @import url(../blocks/gallery/gallery.css);

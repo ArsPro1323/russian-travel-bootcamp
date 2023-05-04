@@ -4,6 +4,7 @@
   text-align: center;
   margin: 0;
   line-height: 76px;
+  width: 35%;
 }
 
 @media screen and (max-width: 320px) {
