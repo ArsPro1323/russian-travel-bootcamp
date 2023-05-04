@@ -4,7 +4,7 @@
 @import url("__subheading/finishing-cover__subheading.css");
 
 .finishing-cover {
-  background-image: url("/images/finishing-cover.jpg");
+  background-image: url("images/finishing-cover.jpg");
   background-size: cover;
   margin: 0 auto;
   width: 92vw;
