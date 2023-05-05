@@ -1,17 +1,23 @@
 .footer__links {
   margin: auto 0 auto 48px;
-  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__links .link__line {
+  display: inline-block;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 768px) {
   .footer__links {
     margin-bottom: 32px;
-    margin-left: 16px;
+    margin-left: 0;
   }
 }
 
-@media screen and (max-width: 320px) {
-  .footer__links {
-    flex-direction: column;
-  }
+@media screen and (max-width: 680px) {
+  .footer__links .link__line {
+    display: block;
+  } 
 }
