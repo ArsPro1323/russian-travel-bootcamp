@@ -1,9 +1,49 @@
 @import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../fonts/fonts.css);
+
 @import url(../blocks/root/root.css);
-@import url(../blocks/header/header.css);
-@import url(../blocks/cover/cover.css);
-@import url(../blocks/question/question.css);
-@import url(../blocks/gallery/gallery.css);
+
+@import url(../blocks/main/main.css);
+
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__link-container/card__link-container.css);
+@import url(../blocks/card/__link-name/card__link-name.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__content/card__content.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__caption/cover__caption.css);
+
 @import url(../blocks/finishing-cover/finishing-cover.css);
+@import url(../blocks/finishing-cover/__image/finishing-cover__image.css);
+@import url(../blocks/finishing-cover/__link/finishing-cover__link.css);
+@import url(../blocks/finishing-cover/__heading/finishing-cover__heading.css);
+@import url(../blocks/finishing-cover/__subheading/finishing-cover__subheading.css);
+
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__image/gallery__image.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang/header__lang.css);
+
+@import url(../blocks/question/question.css);
+@import url(../blocks/question/__title/question__title.css);
+@import url(../blocks/question/__info/question__info.css);
+@import url(../blocks/question/__answers/question__answers.css);
+@import url(../blocks/question/__options/question__options.css);
+@import url(../blocks/question/__number/question__number.css);
+
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/link_active.css);

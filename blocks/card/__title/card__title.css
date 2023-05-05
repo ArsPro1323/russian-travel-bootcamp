@@ -1,5 +1,5 @@
 .card__title {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   justify-content: end;
   font-size: 72px;
@@ -8,6 +8,7 @@
   padding-bottom: 3vh;
   font-weight: 900;
   line-height: 76px;
+  width: 70%;
 }
 
 @media screen and (max-width: 768px) {
@@ -18,14 +19,10 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 465px) {
   .card__title {
     margin-left: 16px;
     line-height: 35px;
     font-size: 32px;
-  }
-
-  .card__title br{
-    display: none;
   }
 }

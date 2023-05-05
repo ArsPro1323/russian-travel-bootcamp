@@ -1,7 +1,14 @@
-.card__link,.card__link:hover, .card__link:active {
+.card__link {
   text-decoration: none;
   color: white;
   text-decoration-line:underline;
   font-size: 18px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 470px) {
+  .card__link {
+    font-size: 10px;
+    margin-right: 10px;
+  }
 }

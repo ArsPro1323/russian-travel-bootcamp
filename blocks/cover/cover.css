@@ -1,11 +1,6 @@
-@import url(__title/cover__title.css);
-@import url(__subtitle/cover__subtitle.css);
-@import url(__image/cover__image.css);
-@import url("__caption/cover__caption.css");
-
 .cover {
-  margin: 0 auto;
-  width: 77vw;
+  margin: 0;
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
