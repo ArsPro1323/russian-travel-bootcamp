@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.footer__links .link__line {
+.footer__links .footer__line {
   display: inline-block;
   list-style-type: none;
 }
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 680px) {
-  .footer__links .link__line {
+  .footer__links .footer__line {
     display: block;
   } 
 }
