@@ -3,12 +3,12 @@
   background-size: cover;
   margin: 0 auto;
   width: 100%;
-  min-height: calc(100% * 740/1184);
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .finishing-cover {
     width: 100vw;
-    min-height: calc(100vw * 740/1184);
+    max-height: calc(100vw * 740/1184);
   }
 }

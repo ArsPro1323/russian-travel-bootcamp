@@ -2,7 +2,6 @@
   padding: 12px 48px;
   display: flex;
   color: white;
-  column-gap: 10px;
   background-color: rgba(42, 44, 47, 0.8);
   font-weight: 400;
 }

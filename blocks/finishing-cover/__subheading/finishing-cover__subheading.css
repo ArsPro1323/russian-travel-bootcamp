@@ -1,9 +1,18 @@
 .finishing-cover__subheading {
   font-size: 18px;
+  line-height: 20px;
   font-weight: 400;
   text-align: center;
   width: 23%;
   margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .finishing-cover__subheading {
+    font-size: 16px;
+    line-height: 18px;
+    width: 90vw;
+  }
 }
 
 @media screen and (max-width: 320px) {

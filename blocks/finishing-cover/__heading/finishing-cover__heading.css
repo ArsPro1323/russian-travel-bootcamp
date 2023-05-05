@@ -4,12 +4,29 @@
   text-align: center;
   margin: 0;
   line-height: 76px;
-  width: 35%;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  .finishing-cover__heading {
+    font-size: 56px;
+    line-height: 58px;
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .finishing-cover__heading {
+    font-size: 48px;
+    line-height: 50px;
+    max-width: 330px;
+  }
 }
 
 @media screen and (max-width: 320px) {
   .finishing-cover__heading {
     font-size: 32px;
     line-height: 35px;
+    max-width: 220px;
   }
 }
