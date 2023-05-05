@@ -2,13 +2,13 @@
   background-image: url("../../images/finishing-cover.jpg");
   background-size: cover;
   margin: 0 auto;
-  width: 92vw;
-  height: calc(92vw * 740/1184);
+  width: 100%;
+  min-height: calc(100% * 740/1184);
 }
 
 @media screen and (max-width: 1024px) {
   .finishing-cover {
     width: 100vw;
-    height: calc(100vw * 740/1184);
+    min-height: calc(100vw * 740/1184);
   }
 }
