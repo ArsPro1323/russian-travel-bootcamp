@@ -1,5 +1,5 @@
 .cover {
-  margin: 0 auto;
+  margin: 28px auto 0;
   width: 100%;
 }
 
@@ -12,5 +12,13 @@
 @media screen and (max-width: 768px) {
   .cover {
     width: 100vw;
+    margin-top: 36px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 100vw;
+    margin-top: 32px;
   }
 }

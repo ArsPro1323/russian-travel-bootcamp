@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: calc(92vw * 740/1184);
+  aspect-ratio: 1184 / 740;
   z-index: 0;
   position: relative;
 }
@@ -17,7 +17,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  min-height: calc(92vw * 740/1184);
+  aspect-ratio: 1184 / 740;
   background-color: rgba(42, 44, 47, 0.3);
   transition: background-color ease-in-out 0.3s;
   z-index: -1;
@@ -29,7 +29,7 @@
   }
 }
 
-.finishing-cover:hover .finishing-cover__link::before {
+.finishing-cover__link:hover::before {
   background-color: rgba(42, 44, 47, 0.8);
   transition: background-color ease-in-out 0.25s;
 }

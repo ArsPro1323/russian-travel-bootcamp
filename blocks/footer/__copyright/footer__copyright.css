@@ -1,9 +1,15 @@
 .footer__copyright {
   padding: 0;
-  width: 190px;
-  margin: auto auto 48px auto;
+  width: auto;
+  margin: auto 20px 48px auto;
   font-size: 14px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__copyright {
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 768px) {

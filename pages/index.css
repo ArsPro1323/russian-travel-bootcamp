@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
-@import url(../fonts/fonts.css);
 
 @import url(../blocks/root/root.css);
 
@@ -31,12 +30,15 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__line/footer__line.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header_lang-link.css);
 
 @import url(../blocks/question/question.css);
 @import url(../blocks/question/__title/question__title.css);
@@ -46,4 +48,4 @@
 @import url(../blocks/question/__number/question__number.css);
 
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/link_active.css);
+@import url(../blocks/link/_active/link_active.css);

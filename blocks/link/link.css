@@ -1,9 +1,9 @@
 .link {
   color: #FFFFFF;
   opacity: 1;
+  text-decoration: none;
 }
 
 .link:hover {
-  color: #FFFFFF;
   opacity: 0.8;
 }

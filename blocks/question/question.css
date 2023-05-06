@@ -1,5 +1,25 @@
 .question {
-  margin-top: 8vw;
-  margin-left: 4vw;
+  margin-top: 92px;
+  margin-left: 11.5vw;
   max-width: 1600px;
+}
+
+@media screen and (max-width: 1024px) {
+  .question {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .question {
+    margin-left: 24px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .question {
+    margin-left: 16px;
+    margin-top: 64px;
+  }
 }

@@ -1,14 +1,14 @@
 .finishing-cover {
   background-image: url("../../images/finishing-cover.jpg");
-  background-size: cover;
+  width: 92.5%;
+  aspect-ratio: 1184 / 740;
+  background-size: contain;
   margin: 0 auto;
-  width: 100%;
-  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .finishing-cover {
     width: 100vw;
-    max-height: calc(100vw * 740/1184);
+    height: auto;
   }
 }

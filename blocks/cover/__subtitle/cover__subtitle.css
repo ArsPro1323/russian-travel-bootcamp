@@ -4,9 +4,21 @@
   font-weight: 400;
   line-height: 36px;
   width: 40%;
-  min-width: 450px;
+  min-width: 500px;
   max-width: 570px;
-  margin: 0 auto 7vh;
+  margin: 32px auto 64px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-bottom: 54px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__subtitle {
+    margin-bottom: 56px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -15,5 +27,7 @@
     line-height: 20px;
     min-width: 300px;
     max-width: 350px;
+    margin-top: 18px;
+    margin-bottom: 40px;
   }
 }

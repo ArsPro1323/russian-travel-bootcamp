@@ -1,14 +1,25 @@
 .card__link {
   text-decoration: none;
   color: white;
-  text-decoration-line:underline;
+  text-decoration-line: underline;
   font-size: 18px;
   font-weight: 400;
+}
+
+.card__link:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 470px) {
   .card__link {
     font-size: 10px;
     margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card__link {
+    font-size: 18px;
+    line-height: 22px;
   }
 }

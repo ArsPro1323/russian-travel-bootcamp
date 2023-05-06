@@ -1,15 +1,4 @@
 .card__image {
-  max-width: 50vw;
-}
-
-@media screen and (max-width: 768px) {
-  .card__image {
-    max-width: 44vw;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .card__image {
-    max-width: 100vw;
-  }
+  width: 100%;
+  object-fit: cover;
 }

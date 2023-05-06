@@ -3,7 +3,7 @@
   line-height: 20px;
   font-weight: 400;
   text-align: center;
-  width: 23%;
+  max-width: 370px;
   margin: 0;
 }
 
@@ -19,6 +19,5 @@
   .finishing-cover__subheading {
     font-size: 14px;
     line-height: 16px;
-    width: 90vw;
   }
 }

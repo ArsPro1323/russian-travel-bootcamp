@@ -4,20 +4,9 @@
   padding: 0;
 }
 
-.footer__links .footer__line {
-  display: inline-block;
-  list-style-type: none;
-}
-
 @media screen and (max-width: 768px) {
   .footer__links {
     margin-bottom: 32px;
-    margin-left: 0;
+    margin-left: 24px;
   }
-}
-
-@media screen and (max-width: 680px) {
-  .footer__links .footer__line {
-    display: block;
-  } 
 }

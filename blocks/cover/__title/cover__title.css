@@ -10,21 +10,21 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  .cover__title {
-    font-size: 72px;
-    line-height: 76px;
-    max-width: 525px;
-    min-width: 510px;
-  }
-}
-
 @media screen and (max-width: 520px) {
   .cover__title {
     font-size: 56px;
     line-height: 58px;
     max-width: 475px;
     min-width: 460px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover__title {
+    font-size: 44px;
+    line-height: 46px;
+    max-width: 292px;
+    min-width: 285px;
   }
 }
 
