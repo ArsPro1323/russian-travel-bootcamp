@@ -4,6 +4,12 @@
   line-height: 58px;
 }
 
+@media screen and (max-width: 768px) {
+  .question__title {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .question__title {
     font-size: 32px;

@@ -10,5 +10,6 @@
 @media screen and (max-width: 768px) {
   .card__link-name {
     width: 44vw;
+    margin-bottom: 4px;
   }
 }
